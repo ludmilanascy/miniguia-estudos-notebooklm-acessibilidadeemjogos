@@ -57,7 +57,7 @@ Aqui está o plano de ação dividido por áreas críticas:
 - "A melhor estratégia" é relativo, subjetivo. Descrever melhor para a I.A.
 - As fontes iniciais estão priorizando apenas deficiência visual e auditivia. Diversificar outras questões de acessibilidade.
 
-### Miniguia de Estudo (Entrega Final): 
+### Miniguia de Estudo: 
 
 #### RESUMO DO REPOSITÓRIO
 
@@ -84,3 +84,18 @@ Esse repositório é um exercício do bootcamp "Do prompt até o agente" da Dio 
 - **Ajuste de Som Granular**: A opção de controlar o volume de diferentes fontes (música, vozes, efeitos) separadamente, ajudando jogadores a destacar informações auditivas cruciais.
 
 #### **(EM CONSTRUÇÃO)** Um conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema.
+
+##### **Diretrizes na Criação de um bom prompt**
+Fonte: https://elidianaandrade.gitbook.io/cursos/introducao-a-engenharia-de-prompts/visao-geral-da-engenharia-de-prompts/elementos-essenciais-de-um-bom-prompt
+
+- **Instrução Inicial**: é a tarefa específica que você deseja que o modelo realize. Deve ser direta e sem ambiguidade para evitar interpretações erradas.
+- **Contexto Adequado**: fornece informações adicionais que ajudam o modelo a entender melhor a tarefa e a produzir uma resposta mais precisa e relevante.
+- **Exemplos**: ajudam a orientar o modelo sobre o formato ou estilo da resposta desejada. Eles podem ser usados para ilustrar como a tarefa deve ser realizada ou para fornecer uma referência clara.
+- **Dados de Entrada**:  são as informações ou o problema específico que o modelo deve processar ou resolver. Pode ser uma pergunta, uma situação ou um texto que precisa ser analisado ou trabalhado.
+- **Formato de Saída**: especifica o que é esperado da resposta do modelo em termos de comprimento, detalhes ou tipo de formato.
+
+##### **POSSÍVEIS PROMPTS SEGUNDO AS DIRETRIZES DESCRITAS ACIMA**
+
+- "Sugira um passo a passo de como aplicar acessibilidade em jogos digitais em (insira aqui o gênero do jogo) na engine (insira aqui a engine, não esquecendo de colocar a documentação da mesma como uma fonte para o notebookLM) considerando o tempo reduzido de uma game jam que dura 48 horas. Tente abordar o máximo de possíveis deficiências além da auditiva e da visual nesse curto espaço de produção de um jogo digital, considerando que ele está sendo feito por (insira aqui o número de membros da sua equipe) pessoas na equipe nas funçoes (liste as funções da sua equipe: arte 2d, programação, música, UI, roteiro). Siga os exemplos dos jogos acessíveis (nomear os jogos de referência), que possuem (listar as característica de acessibilidade do jogo de referência). Como você avalia o que é possível fazer no intervalo de tempo de produção levando em conta as habilidades (listar habilidades de cada pessoa da equipe) reunidas nessa game jam? Documente em um formato adaptado para ser inserido num Game Design Document que será lido por todos da equipe. Em seguida, faça no formato checklist para ser adicionado como tarefa de gerenciamento de equipe (especificar o app de gerenciamento de equipe. Ex.: Trello)".
+
+- "Restahdo X horas para o final dessa game jam, faça uma lista de prioridades para garantir a acessiblidade do jogo em produção considerando os seguintes critérios: (listar os critérios prioritários). Documente em um formato adaptado para ser inserido em um Game Design Document. Em seguida, faça no formato checklist para ser adicionado como tarefa de gerenciamento de equipe (especificar o app de gerenciamento de equipe. Ex.: Trello)" 
